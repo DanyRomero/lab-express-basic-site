@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: black;
+
+}
+h1{
+    background-color: rgba(140, 135, 198, 0.5);
+    padding: 10px 50px;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 30vw;
+    margin: 10px;
+    height: 40vh;
+}

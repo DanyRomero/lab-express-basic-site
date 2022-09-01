@@ -12,4 +12,7 @@ app.get("/about", (req, res) => {
 app.get("/works", (req, res) => {
     res.sendFile(__dirname + "/views/works.html")
 })
+app.get("/gallery", (req, res) => {
+    res.sendFile(__dirname + "/views/gallery.html")
+})
 app.listen(3000);
