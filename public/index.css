@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 10%;
+}
+.content{
+    display: flex;
+}
+h1{
+    position:absolute;
+    font-size: 10vw;
+    margin: 10% 27%; 
+    width: auto;
+    
+}
+nav ul{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 25px;
+}
+nav{
+    background-color: rgba(140, 135, 198, 0.5);
+}
+
+a{
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: rgb(12, 183, 225);
+}
+
